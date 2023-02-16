@@ -1,0 +1,28 @@
+.react-calendar {
+  background: none;
+  border: none;
+  font-size: 12px;
+}
+.react-calendar__tile--active {
+}
+.react-calendar__month-view__weekdays {
+  abbr {
+    /*월,화,수... 글자 부분*/
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: none;
+}
+.react-calendar__navigation {
+  display: none;
+}
+.react-calendar__tile--range {
+  box-shadow: 0 0 6px 2px black;
+}
+.react-calendar__tile {
+  color: white;
+}
